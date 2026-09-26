@@ -11,8 +11,9 @@ body{
     color: white;
 }
 .container{
-    width: 55%;
-    height: 60%;
+    width: 50%;
+    min-height: fit-content;
+    height: 65%;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(90px);
     border-radius: 10px;
@@ -22,6 +23,7 @@ body{
     align-items: center;
     justify-content: space-around;
     text-align: center;
+    padding: 10px;
 }
 #avatar{
     background-image: linear-gradient(to top left, #f3f3f3, #7da7a0, #c9a9ca);
@@ -35,6 +37,7 @@ body{
     text-transform: uppercase;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     position: relative;
+    margin: 0;
 }
 #avatar::after{
     content: 'Who Are You';
